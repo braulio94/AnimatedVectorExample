@@ -36,8 +36,8 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart() {
-        super.onStart();
+    protected void onResume() {
+        super.onResume();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (drawable instanceof Animatable2) {
                 avd = (AnimatedVectorDrawable) drawable;
@@ -51,9 +51,12 @@ public class SplashActivity extends AppCompatActivity {
                     @Override
                     public void onAnimationEnd(Drawable drawable) {
                         super.onAnimationEnd(drawable);
-                        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
-                        ActivityOptionsCompat options = makeSceneTransitionAnimation(SplashActivity.this);
-                        startActivity(intent, options.toBundle());
+                        //Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                        //ActivityOptionsCompat options = makeSceneTransitionAnimation(SplashActivity.this);
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                            avd.clearAnimationCallbacks();
+                        }
+                        startActivity(new Intent(SplashActivity.this, MainActivity.class));
                         finish();
                     }
                 });
