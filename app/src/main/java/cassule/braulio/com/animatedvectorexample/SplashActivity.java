@@ -1,0 +1,76 @@
+package cassule.braulio.com.animatedvectorexample;
+
+import android.content.Intent;
+import android.graphics.drawable.Animatable;
+import android.graphics.drawable.Animatable2;
+import android.graphics.drawable.AnimatedVectorDrawable;
+import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.graphics.drawable.AnimatedVectorDrawableCompat;
+import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.Toast;
+
+import static android.support.v4.app.ActivityOptionsCompat.*;
+
+public class SplashActivity extends AppCompatActivity {
+
+    AnimatedVectorDrawable avd;
+    Drawable drawable;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+        ImageView flagImage = findViewById(R.id.flag_image);
+        drawable = flagImage.getDrawable();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (drawable instanceof Animatable2) {
+                avd = (AnimatedVectorDrawable) drawable;
+                avd.registerAnimationCallback(new Animatable2.AnimationCallback() {
+                    @Override
+                    public void onAnimationStart(Drawable drawable) {
+                        super.onAnimationStart(drawable);
+
+                    }
+
+                    @Override
+                    public void onAnimationEnd(Drawable drawable) {
+                        super.onAnimationEnd(drawable);
+                        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                        ActivityOptionsCompat options = makeSceneTransitionAnimation(SplashActivity.this);
+                        startActivity(intent, options.toBundle());
+                        finish();
+                    }
+                });
+
+                avd.start();
+            }
+        } else if (drawable instanceof Animatable) {
+            ((Animatable) drawable).start();
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            avd.clearAnimationCallbacks();
+        }
+    }
+
+}
