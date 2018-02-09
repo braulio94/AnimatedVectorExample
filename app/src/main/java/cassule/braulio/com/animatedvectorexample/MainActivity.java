@@ -1,6 +1,7 @@
 package cassule.braulio.com.animatedvectorexample;
 
 import android.graphics.drawable.Animatable;
+import android.graphics.drawable.AnimatedVectorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -56,6 +57,4 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-
 }
