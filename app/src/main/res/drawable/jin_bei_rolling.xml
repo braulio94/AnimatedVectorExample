@@ -5,13 +5,13 @@
         <vector
             android:name="vector"
             android:width="350dp"
-            android:height="56dp"
+            android:height="50dp"
             android:viewportWidth="350"
-            android:viewportHeight="60">
+            android:viewportHeight="50">
             <group
                 android:name="group_1"
                 android:pivotX="500"
-                android:pivotY="-16"
+                android:pivotY="-10"
                 android:scaleX="0.16"
                 android:scaleY="0.16">
                 <group android:name="front_wheel">
@@ -112,9 +112,9 @@
         <aapt:attr name="android:animation">
             <objectAnimator
                 android:propertyName="pivotX"
-                android:duration="7000"
+                android:duration="5000"
                 android:valueFrom="500"
-                android:valueTo="-200"
+                android:valueTo="-100"
                 android:valueType="floatType"
                 android:interpolator="@android:anim/linear_interpolator"/>
         </aapt:attr>

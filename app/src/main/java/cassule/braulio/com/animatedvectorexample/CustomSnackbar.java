@@ -67,7 +67,7 @@ public class CustomSnackbar {
                 snackbar = Snackbar.make(view, "", Snackbar.LENGTH_SHORT);
                 break;
             case LONG:
-                snackbar = Snackbar.make(view, "", 7000);
+                snackbar = Snackbar.make(view, "", 5000);
                 break;
         }
         snackbarView = (Snackbar.SnackbarLayout) snackbar.getView();
