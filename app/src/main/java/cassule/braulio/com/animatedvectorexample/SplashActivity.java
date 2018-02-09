@@ -51,8 +51,6 @@ public class SplashActivity extends AppCompatActivity {
                     @Override
                     public void onAnimationEnd(Drawable drawable) {
                         super.onAnimationEnd(drawable);
-                        //Intent intent = new Intent(SplashActivity.this, MainActivity.class);
-                        //ActivityOptionsCompat options = makeSceneTransitionAnimation(SplashActivity.this);
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                             avd.clearAnimationCallbacks();
                         }
