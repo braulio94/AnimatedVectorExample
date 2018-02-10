@@ -91,7 +91,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:text="Monumento aos Soldados Desconhecidos" />
+                    android:text="Monumento ao Soldado Desconhecido" />
 
                 <TextView
                     android:layout_width="match_parent"
