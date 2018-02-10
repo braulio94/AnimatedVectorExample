@@ -5,15 +5,15 @@
         <vector
             android:name="vector"
             android:width="350dp"
-            android:height="50dp"
+            android:height="40dp"
             android:viewportWidth="350"
-            android:viewportHeight="50">
+            android:viewportHeight="40">
             <group
                 android:name="group_1"
                 android:pivotX="500"
-                android:pivotY="-10"
-                android:scaleX="0.16"
-                android:scaleY="0.16">
+                android:pivotY="0"
+                android:scaleX="0.10"
+                android:scaleY="0.10">
                 <group android:name="front_wheel">
                     <path
                         android:name="svg_1"

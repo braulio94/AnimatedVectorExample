@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">AnimatedVectorExample</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_main">Bem-vindo ao Paraiso</string>
+    <string name="title_activity_main">Animated Vector</string>
 </resources>

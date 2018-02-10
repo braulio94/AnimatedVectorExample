@@ -1,0 +1,218 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="450dp"
+            android:height="300dp"
+            android:viewportWidth="450"
+            android:viewportHeight="300">
+            <group
+                android:name="estrela"
+                android:scaleX="0"
+                android:scaleY="0">
+                <path
+                    android:name="svg_4"
+                    android:pathData="M 195.4 102.9 L 213.7 102.9 L 219.3 85.6 L 225 102.9 L 243.3 102.9 L 228.6 113.9 L 234.3 131.5 L 219.3 120.8 L 204.4 131.5 L 210.1 113.9 L 195.4 102.9 Z"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+            </group>
+            <group android:name="katana">
+                <path
+                    android:name="svg_18"
+                    android:pathData="M 300.2 229.2 L 278.7 212.5 L 272.4 220.6 L 291.1 233.7 C 292.6 234.8 292.7 239.6 298.3 240.3 C 300.6 240.6 302.1 238.9 302.1 238.9 C 304.5 236.1 303.9 232 300.2 229.2 Z M 285.4 223 C 284.8 223 284.3 222.5 284.3 221.9 C 284.3 221.3 284.8 220.8 285.4 220.8 C 286 220.8 286.5 221.3 286.5 221.9 C 286.6 222.5 286.1 223 285.4 223 Z M 289.8 226.6 C 289.2 226.6 288.7 226.1 288.7 225.5 C 288.7 224.9 289.2 224.4 289.8 224.4 C 290.4 224.4 290.9 224.9 290.9 225.5 C 291 226.1 290.5 226.6 289.8 226.6 Z M 294.1 229.7 C 293.5 229.7 293 229.2 293 228.6 C 293 228 293.5 227.5 294.1 227.5 C 294.7 227.5 295.2 228 295.2 228.6 C 295.3 229.2 294.8 229.7 294.1 229.7 Z"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="svg_19"
+                    android:pathData="M 203.6 159.6 L 204.3 158.7 L 276.2 213.4 L 277.6 211.7 L 214 162.9 C 202.7 154 191.9 146.1 190.1 135.6 L 186.8 143.7 C 182.9 153.8 182.1 163.1 201.1 174.9 L 271 219.7 L 275.3 214.4 L 203.6 159.6 Z"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+            </group>
+            <group android:name="roda">
+                <path
+                    android:name="svg_20"
+                    android:pathData="M 255.6 192.8 L 246.8 186.1 C 261.9 174.1 271.7 155.9 271.7 135.4 C 271.7 104.3 248.8 78.1 218.7 71.8 L 221.1 61.2 C 225.3 62.1 230.2 63.8 234.3 65.2 C 238.5 67.1 241.1 67.6 245 70 L 248 72 C 251.9 74.4 256.6 78.1 259.2 81.2 C 262.3 84.5 266.6 88.9 269.2 92.5 C 272.6 97.3 274 99.7 276.4 105.2 C 277.8 109.4 280.3 115.6 281.1 120 C 281.9 123.4 283.1 129.4 283 134.4 L 283 135.3 C 282.7 139.7 282.3 145.7 281.3 150.1 C 280.2 154.6 278.8 160.2 277.1 164.4 C 275 168.3 272.4 173.8 269.7 177.6 C 267 181.4 264.1 185.1 260.8 188.4 L 260.5 188.7 C 259.2 189.7 256.8 191.6 255.6 192.8 M 228.8 196 L 240.1 202.6 C 239.1 203.5 235.9 205.1 235 205.4 C 230.7 206.8 225.1 208.8 220.2 209.7 C 215.6 210.6 211.2 211.2 206.5 211.2 C 202.2 210.9 195.9 211.2 191.1 210.2 C 186.8 209.4 182.5 208.4 178.5 207 C 174.8 205.5 168.9 203.1 164.8 200.7 C 161.5 199 158.6 196.9 155.8 194.8 L 162.8 186.1 C 174.3 195.1 188.8 200.3 204.6 200.3 C 213.2 200.5 221.4 199.1 228.8 196"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+            </group>
+            <group android:name="dentes">
+                <path
+                    android:name="dente1"
+                    android:pathData="M 235.8 69.735 L 242.637 73 L 244.139 69.735 C 242.171 68.583 239.84 67.623 237.768 66.71 L 235.8 69.735 Z"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="dente2"
+                    android:pathData="M 262.535 84.759 L 259.8 87.14 L 264.538 93.2 L 267.029 90.332 C 265.759 88.384 264.001 86.544 262.535 84.759 Z"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="dente3"
+                    android:pathData="M 276.5 105.8 C 276.5 105.9 276.6 105.8 276.5 105.8 Z"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="dente4"
+                    android:pathData="M 279.986 119.247 C 279.735 116.965 279.106 114.319 278.665 112.14 L 276.431 113.022 L 276.4 113.074 L 277.816 120.7 L 279.986 119.247 Z"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="dente5"
+                    android:pathData="M 281.233 138.276 L 281.2 150.4 L 281.355 150.4 C 281.374 146.771 281.378 142.73 281.384 139.101 L 281.233 138.276 Z"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="dente6"
+                    android:pathData="M 267.6 174.063 L 270.707 176.174 C 272.164 173.877 273.232 171.144 274.348 168.846 L 271.532 166.3"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="dente10"
+                    android:pathData="M 222.5 206.007 L 223.819 208.447 C 226.115 208.124 228.313 207.406 230.364 206.94 L 229.485 204.5"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="dente8"
+                    android:pathData="M 194.4 210.1 L 194.4 210.672 C 199.1 210.761 204.2 210.737 208.4 210.761 L 209.3 210.205"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="dente9"
+                    android:pathData="M 176.057 200.7 L 174.847 204.467 C 176.662 205.797 178.896 206.794 180.571 207.625 L 182.2 204.19"
+                    android:fillColor="#ffcb00"
+                    android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="dente1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="265"
+                android:valueFrom="M 235.8 69.735 L 242.637 73 L 244.139 69.735 C 242.171 68.583 239.84 67.623 237.768 66.71 L 235.8 69.735 Z"
+                android:valueTo="M 235.8 66.2 L 249 73 L 251.9 66.2 C 248.1 63.8 243.6 61.8 239.6 59.9 L 235.8 66.2 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="dente2">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:startOffset="228"
+                android:duration="298"
+                android:valueFrom="M 262.535 84.759 L 259.8 87.14 L 264.538 93.2 L 267.029 90.332 C 265.759 88.384 264.001 86.544 262.535 84.759 Z"
+                android:valueTo="M 265.4 77.6 L 259.8 82 L 269.5 93.2 L 274.6 87.9 C 272 84.3 268.4 80.9 265.4 77.6 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="dente3">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:startOffset="462"
+                android:duration="327"
+                android:valueFrom="M 276.5 105.8 C 276.5 105.9 276.6 105.8 276.5 105.8 L 276.5 105.8 L 276.5 105.8 C 276.5 105.8 276.5 105.8 276.5 105.8 L 276.5 105.8 L 276.5 105.8"
+                android:valueTo="M 276.4 106 C 277.9 110.9 279.4 115.8 280.9 120.7 L 287.8 117.9 L 287.8 117.9 C 287 113.5 285 108.4 283.6 104.2 L 276.5 105.9 L 276.4 106"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="dente4">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:startOffset="689"
+                android:duration="339"
+                android:valueFrom="M 279.986 119.247 C 279.735 116.965 279.106 114.319 278.665 112.14 L 276.431 113.022 L 276.4 113.074 L 277.816 120.7 L 279.986 119.247 Z"
+                android:valueTo="M 279.986 119.247 C 279.735 116.965 279.106 114.319 278.665 112.14 L 276.431 113.022 L 276.4 113.074 L 277.816 120.7 L 279.986 119.247 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="dente5">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:startOffset="928"
+                android:duration="350"
+                android:valueFrom="M 281.233 138.276 L 281.2 150.4 L 281.355 150.4 C 281.374 146.771 281.378 142.73 281.384 139.101 L 281.233 138.276 Z"
+                android:valueTo="M 282.8 135.7 L 281.2 150.4 L 288.6 150.4 C 289.5 146 289.7 141.1 290 136.7 L 282.8 135.7 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="dente6">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:startOffset="1178"
+                android:duration="344"
+                android:valueFrom="M 267.6 174.063 L 270.707 176.174 C 272.164 173.877 273.232 171.144 274.348 168.846 L 271.532 166.3"
+                android:valueTo="M 267.6 178.8 L 274 182.2 C 277 178.5 279.2 174.1 281.5 170.4 L 275.7 166.3"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="dente8">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:startOffset="1463"
+                android:duration="321"
+                android:valueFrom="M 194.4 210.1 L 194.4 210.672 C 199.1 210.761 204.2 210.737 208.4 210.761 L 209.3 210.205"
+                android:valueTo="M 194.4 210.1 L 194.4 217.2 C 199.1 218.3 204.2 218 208.4 218.3 L 209.3 211.4"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="dente9">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:startOffset="1698"
+                android:duration="315"
+                android:valueFrom="M 176.057 200.7 L 174.847 204.467 C 176.662 205.797 178.896 206.794 180.571 207.625 L 182.2 204.19"
+                android:valueTo="M 169 200.7 L 166.4 207.5 C 170.3 209.9 175.1 211.7 178.7 213.2 L 182.2 207"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="dente10">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:startOffset="1422"
+                android:duration="362"
+                android:valueFrom="M 222.5 206.007 L 223.819 208.447 C 226.115 208.124 228.313 207.406 230.364 206.94 L 229.485 204.5"
+                android:valueTo="M 222.5 208.7 L 225.2 215.5 C 229.9 214.6 234.4 212.6 238.6 211.3 L 236.8 204.5"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+    <target android:name="estrela">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="scaleX"
+                    android:startOffset="1496"
+                    android:duration="1004"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="scaleY"
+                    android:startOffset="1496"
+                    android:duration="1004"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

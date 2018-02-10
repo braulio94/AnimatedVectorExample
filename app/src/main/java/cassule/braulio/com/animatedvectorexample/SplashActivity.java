@@ -56,7 +56,7 @@ public class SplashActivity extends AppCompatActivity {
                 public void run() {
                     startActivity(new Intent(SplashActivity.this, MainActivity.class));
                 }
-            }, 5000);
+            }, 2800);
         }
     }
 
@@ -67,5 +67,4 @@ public class SplashActivity extends AppCompatActivity {
             avd.clearAnimationCallbacks();
         }
     }
-
 }
