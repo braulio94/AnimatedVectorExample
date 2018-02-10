@@ -10,8 +10,11 @@
             android:viewportHeight="300">
             <group
                 android:name="estrela"
+                android:translateX="-90"
+                android:translateY="-90"
                 android:scaleX="0"
-                android:scaleY="0">
+                android:scaleY="0"
+                android:rotation="15">
                 <path
                     android:name="svg_4"
                     android:pathData="M 195.4 102.9 L 213.7 102.9 L 219.3 85.6 L 225 102.9 L 243.3 102.9 L 228.6 113.9 L 234.3 131.5 L 219.3 120.8 L 204.4 131.5 L 210.1 113.9 L 195.4 102.9 Z"
@@ -161,7 +164,7 @@
         <aapt:attr name="android:animation">
             <objectAnimator
                 android:propertyName="pathData"
-                android:startOffset="1463"
+                android:startOffset="1752"
                 android:duration="321"
                 android:valueFrom="M 194.4 210.1 L 194.4 210.672 C 199.1 210.761 204.2 210.737 208.4 210.761 L 209.3 210.205"
                 android:valueTo="M 194.4 210.1 L 194.4 217.2 C 199.1 218.3 204.2 218 208.4 218.3 L 209.3 211.4"
@@ -173,7 +176,7 @@
         <aapt:attr name="android:animation">
             <objectAnimator
                 android:propertyName="pathData"
-                android:startOffset="1698"
+                android:startOffset="1991"
                 android:duration="315"
                 android:valueFrom="M 176.057 200.7 L 174.847 204.467 C 176.662 205.797 178.896 206.794 180.571 207.625 L 182.2 204.19"
                 android:valueTo="M 169 200.7 L 166.4 207.5 C 170.3 209.9 175.1 211.7 178.7 213.2 L 182.2 207"
@@ -185,7 +188,7 @@
         <aapt:attr name="android:animation">
             <objectAnimator
                 android:propertyName="pathData"
-                android:startOffset="1422"
+                android:startOffset="1496"
                 android:duration="362"
                 android:valueFrom="M 222.5 206.007 L 223.819 208.447 C 226.115 208.124 228.313 207.406 230.364 206.94 L 229.485 204.5"
                 android:valueTo="M 222.5 208.7 L 225.2 215.5 C 229.9 214.6 234.4 212.6 238.6 211.3 L 236.8 204.5"
@@ -199,7 +202,7 @@
                 <objectAnimator
                     android:propertyName="scaleX"
                     android:startOffset="1496"
-                    android:duration="1004"
+                    android:duration="1504"
                     android:valueFrom="0"
                     android:valueTo="1"
                     android:valueType="floatType"
@@ -207,9 +210,33 @@
                 <objectAnimator
                     android:propertyName="scaleY"
                     android:startOffset="1496"
-                    android:duration="1004"
+                    android:duration="1504"
                     android:valueFrom="0"
                     android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="1496"
+                    android:duration="1504"
+                    android:valueFrom="-90"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="1496"
+                    android:duration="1504"
+                    android:valueFrom="-90"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="rotation"
+                    android:startOffset="1496"
+                    android:duration="1504"
+                    android:valueFrom="15"
+                    android:valueTo="0"
                     android:valueType="floatType"
                     android:interpolator="@android:interpolator/fast_out_slow_in"/>
             </set>
